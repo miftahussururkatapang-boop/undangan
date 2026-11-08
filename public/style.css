@@ -123,6 +123,62 @@ body.theme-royal_purple {
   --font-heading: 'Cinzel', serif; --font-body: 'DM Sans', sans-serif;
 }
 
+/* 6 Ultra Luxury & Cultural Presets */
+body.theme-champagne_starlight {
+  --primary: #3a2f26; --secondary: #57483b; --accent: #d4af37; --gold: #e5c158;
+  --gold-gradient: linear-gradient(135deg, #fae59f 0%, #c59b27 100%);
+  --bg-cover: radial-gradient(ellipse at center, #4d3d2e 0%, #2e241c 75%, #1c150f 100%);
+  --bg-content: #faf7f2; --bg-card: #ffffff; --bg-alt: #f3ede2;
+  --text-primary: #2e251e; --text-muted: #7e6f63; --text-eyebrow: #c59b27; --text-cover: #fffcf5;
+  --btn-bg: var(--gold-gradient); --btn-text: #2e241c; --line: #ede5d8; --ornament: #e5c158;
+  --font-heading: 'Playfair Display', serif; --font-body: 'DM Sans', sans-serif;
+}
+body.theme-moroccan_terracotta {
+  --primary: #5c2c1e; --secondary: #7d3f2d; --accent: #d97736; --gold: #d48b3b;
+  --gold-gradient: linear-gradient(135deg, #f7ba77 0%, #c26723 100%);
+  --bg-cover: radial-gradient(ellipse at center, #7d3f2d 0%, #4a2115 75%, #2b110a 100%);
+  --bg-content: #fcf7f2; --bg-card: #ffffff; --bg-alt: #f6ebe3;
+  --text-primary: #3b1c14; --text-muted: #855649; --text-eyebrow: #c26723; --text-cover: #fff5ed;
+  --btn-bg: var(--gold-gradient); --btn-text: #3b1c14; --line: #eddcd4; --ornament: #d48b3b;
+  --font-heading: 'Cinzel', serif; --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+body.theme-javanese_heritage {
+  --primary: #2a1a10; --secondary: #422818; --accent: #cda250; --gold: #d4af37;
+  --gold-gradient: linear-gradient(135deg, #f3d489 0%, #aa8024 100%);
+  --bg-cover: radial-gradient(ellipse at center, #422818 0%, #24140b 75%, #140904 100%);
+  --bg-content: #fbf8f3; --bg-card: #ffffff; --bg-alt: #f4ecdf;
+  --text-primary: #2b1b11; --text-muted: #735746; --text-eyebrow: #cda250; --text-cover: #fef7e8;
+  --btn-bg: var(--gold-gradient); --btn-text: #24140b; --line: #ede2d3; --ornament: #cda250;
+  --font-heading: 'Cinzel', serif; --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+body.theme-sunda_siger {
+  --primary: #0b3d32; --secondary: #165748; --accent: #d4af37; --gold: #d9b44a;
+  --gold-gradient: linear-gradient(135deg, #f5e298 0%, #b88d1d 100%);
+  --bg-cover: radial-gradient(ellipse at center, #165748 0%, #0b3d32 75%, #05261f 100%);
+  --bg-content: #f6f9f7; --bg-card: #ffffff; --bg-alt: #eaf1ed;
+  --text-primary: #19332c; --text-muted: #5c7870; --text-eyebrow: #b88d1d; --text-cover: #f0f9f5;
+  --btn-bg: var(--gold-gradient); --btn-text: #0b3d32; --line: #dbe6e1; --ornament: #d9b44a;
+  --font-heading: 'Playfair Display', serif; --font-body: 'DM Sans', sans-serif;
+}
+body.theme-velvet_rose {
+  --primary: #471d2b; --secondary: #632c3e; --accent: #df7d93; --gold: #e89dae;
+  --gold-gradient: linear-gradient(135deg, #ffd1db 0%, #d46c84 100%);
+  --bg-cover: radial-gradient(ellipse at center, #632c3e 0%, #471d2b 75%, #2a0c16 100%);
+  --bg-content: #fdf7f8; --bg-card: #ffffff; --bg-alt: #faebef;
+  --text-primary: #3b1824; --text-muted: #8c5e6d; --text-eyebrow: #d46c84; --text-cover: #fff5f7;
+  --btn-bg: var(--gold-gradient); --btn-text: #3b1824; --line: #f5dce2; --ornament: #e89dae;
+  --font-heading: 'Cormorant Garamond', serif; --font-body: 'DM Sans', sans-serif;
+}
+body.theme-platinum_pearl {
+  --primary: #1e2429; --secondary: #364047; --accent: #8a99a4; --gold: #b8c5ce;
+  --gold-gradient: linear-gradient(135deg, #f0f4f7 0%, #9cb0bd 100%);
+  --bg-cover: radial-gradient(ellipse at center, #364047 0%, #1e2429 75%, #101417 100%);
+  --bg-content: #ffffff; --bg-card: #f8fafb; --bg-alt: #edf1f4;
+  --text-primary: #191f24; --text-muted: #647480; --text-eyebrow: #536573; --text-cover: #ffffff;
+  --btn-bg: #1e2429; --btn-text: #ffffff; --line: #e2e8ec; --ornament: #8a99a4;
+  --font-heading: 'Plus Jakarta Sans', sans-serif; --font-body: 'DM Sans', sans-serif;
+}
+
 /* Base Styles */
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
