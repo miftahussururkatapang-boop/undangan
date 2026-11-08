@@ -7,6 +7,8 @@
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
+
+
 const pathSegments = location.pathname.split('/').filter(Boolean);
 const slug = (pathSegments[0] === 'i' ? pathSegments[1] : pathSegments[0]) || 'demo';
 const urlParams = new URLSearchParams(location.search);
