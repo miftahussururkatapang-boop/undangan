@@ -1,3 +1,4 @@
+[hidden], .lightbox-modal[hidden] { display: none !important; }
 /* ====================================================================
    EMERALD GOLD WEDDING - MASTER DESIGN SYSTEM & THEME ENGINE
    ==================================================================== */
@@ -651,6 +652,7 @@ button, input, textarea, select { font: inherit; }
   filter: brightness(1.05);
 }
 
+.lightbox-modal[hidden] { display: none !important; }
 .lightbox-modal {
   position: fixed;
   inset: 0;
